@@ -1,0 +1,104 @@
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src:
+		 url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+     url('../fonts/ProximaNova-Regular.woff') format('woff');
+     font-weight: 400;
+}
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src:
+		 url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+     url('../fonts/ProximaNova-Bold.woff') format('woff');
+     font-weight: 700;
+}
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src:
+		 url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+     url('../fonts/ProximaNova-Semibold.woff') format('woff');
+     font-weight: 600;
+}
+@font-face {
+	font-family: 'ProximaNova-Light';
+	src:
+		 url('../fonts/ProximaNova-Light.woff2') format('woff2'),
+     url('../fonts/ProximaNova-Light.woff') format('woff');
+     font-weight: 300;
+}
+@font-face {
+	font-family: 'ProximaNovaCond-Regular';
+	src:
+		 url('../fonts/ProximaNovaCond-Regular.woff2') format('woff2'),
+     url('../fonts/ProximaNova-Regular.woff') format('woff');
+     font-weight: 400;
+}
+@font-face {
+	font-family: 'ProximaNovaCond-Black';
+	src:
+		 url('../fonts/ProximaNovaCond-Black.woff2') format('woff2'),
+     url('../fonts/ProximaNova-Black.woff') format('woff');
+     font-weight: 900;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ao5eoq');
+  src:  url('../fonts/icomoon.eot?ao5eoq#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ao5eoq') format('truetype'),
+    url('../fonts/icomoon.woff?ao5eoq') format('woff'),
+    url('../fonts/icomoon.svg?ao5eoq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\1f32a";
+}
+.icon-question-circle:before {
+  content: "\f059";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-comments-o:before {
+  content: "\f0e6";
+}
+.icon-clipboard:before {
+  content: "\f0ea";
+}
+.icon-paste:before {
+  content: "\f0ea";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-angle-down:before {
+  content: "\f107";
+}
+.icon-calendar-o:before {
+  content: "\f133";
+}
+.icon-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+

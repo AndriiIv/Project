@@ -1,0 +1,88 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+  border: none;
+}
+html,
+body {
+	height: 100%;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1, h2, h3, h4, p{
+  margin: 0;
+}
+body{
+  font-family: 'ProximaNova-Regular', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+button{
+  cursor: pointer;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+.content{
+  flex: 1 0 auto;
+}
+.footer{
+  flex: 0 0 auto;
+}
+.container{
+  width: 1160px;
+  padding: 0px 10px;
+  margin: 0 auto;
+}
+.container__fluid{
+  width: 1240px;
+  padding: 0px 10px;
+  margin: 0 auto;
+}
+.color__wrapper{
+  background-color: #eef2f7;
+}
+.btn{
+  background-color: $red;
+  color: #fff;
+  border-radius: 19px;
+  padding: 10px 19px;
+  width: 182px;
+  text-align: center;
+}
+.title{
+  @include f700;
+  font-size: 30px;
+  line-height: 30px;
+}
+.title__text{
+  font-size: 14px;
+  line-height: 14px;
+  padding-bottom: 27px;
+  margin-bottom: 38px;
+}
+.decoration{
+  position: absolute;
+}
+.triangle{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 20px;
+}
